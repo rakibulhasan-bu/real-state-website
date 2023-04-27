@@ -19,7 +19,7 @@ const PriceRangeDropdown = () => {
     { value: '160000 - 190000' },
     { value: '190000 - 220000' },
     { value: '220000 - 250000' },
-    { value: '300000 - 400000' },
+    { value: '30000 - 40000' },
   ]
 
   return <Menu as='div' className='dropdown relative'>
