@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { logo } from '../assets/img/index'
 
 const Header = () => {
-  return <header className='py-6 mb-12 border-b'>
+  return <header className='py-6 mb-12 border-b px-8'>
     <div className='container mx-auto flex justify-between items-center'>
       {/* logo */}
       <Link to={'/'}>

@@ -16,12 +16,11 @@ const HouseList = () => {
 
   // if nothing data found
   if (houses.length < 1) {
-    return (<div className='text-center text-4xl text-violet-500 font-semibold '> Sorry, nothing data found.</div>)
+    return (<div className='text-center text-3xl text-gray-400 font-semibold '> Sorry, nothing data found.</div>)
   }
 
-
   return (
-    <section className='mb-20'>
+    <section className='mb-20 px-6'>
       <div className="container mx-auto">
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-14'>
           {

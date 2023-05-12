@@ -3,7 +3,7 @@ import Banner from '../components/Banner';
 import HouseList from '../components/HouseList';
 
 const Home = () => {
-  return <div >
+  return <div>
     <Banner />
     <HouseList />
   </div>;
